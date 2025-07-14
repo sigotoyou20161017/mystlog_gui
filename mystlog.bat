@@ -1,27 +1,9 @@
-# mystlog_gui
-**Mystery Log Generator with GUI (Python and Ruby versions)**
+::ログっぽいものを作成する部分
+::後からこれを呼び出していければベスト
+::今回は比較のために作成したログもgitにアップロードする、増えすぎたら適時消す
 
-せっかくなので、PythonとRubyのGUIそれぞれを触ってみて、  
-その二つを比較してみることにする。
-ついでにredomeはmd言語の練習にそれっぽく書く
-
----
-
-## 📋 プラン
-
-1. 適当なプログラム、今回はダミーログを吐き出す装置を作る  
-2. それをPythonおよびRubyでGUI化する  
-3. 視覚的に比較する
-
----
-
-## 🧪 ログ生成部分のコード（バッチファイル）
-
-それぞれのGUIコードからこのスクリプトを呼び出し、  
-結果を受け取ってGUIに反映すればいいだろう。
-
-```bat
 @echo off
+chcp 65001
 setlocal enabledelayedexpansion
 
 :: 出力ファイル名
@@ -62,8 +44,3 @@ echo [%year%-%month%-%day% %hour%:%min%:%sec%] !message! >> %logfile%
 :: 実行後メッセージ
 echo Log saved: %logfile%
 pause
-```
-
-## 🤷‍♂️ なんか書いとけ
-いや、これだけのシンプルなツールなんで書いとくことない。
-おなかすいた。
