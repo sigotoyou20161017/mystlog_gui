@@ -61,9 +61,9 @@ echo [%year%-%month%-%day% %hour%:%min%:%sec%] !message! >> %logfile%
 
 :: 実行後メッセージ
 echo Log saved: %logfile%
+::最後のpauseはテスト時はあったほうがいい、組み込んだ後は消したほうがいい
 pause
 ```
 
 ## 🤷‍♂️ なんか書いとけ
 いや、これだけのシンプルなツールなんで書いとくことない。
-おなかすいた。
